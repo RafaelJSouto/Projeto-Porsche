@@ -1,0 +1,112 @@
+@charset "UTF -8";
+
+@font-face {
+    font-family: font porsche;
+    src: url(911porschav3.ttf) format(truetype);
+    font-weight: normal;
+}
+:root{
+--cor0: #F0D080;
+--cor1: #F1D648;
+--cor2: #FCE79F;
+--cor3: #9B062B;
+--cor4: #000000;
+
+--font-padrao: Arial, Verdana, Helvetica, sans-serif;
+--font-destaque: font porsche, cousive
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin: 15px 0px;
+}
+header{
+    background-color: var(--cor3);
+    text-align: center;
+    min-height: 150px;
+    padding-top: 25px;
+}
+header h1{
+    font-family: font porsche;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.262);
+
+}
+header p{
+    font-family: var(--font-padrao);
+    font-size: 1.2em;
+    margin: auto;
+    max-width: 500px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.138);
+
+}
+nav{
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.21);
+}
+nav > a{
+    color: var(--cor1);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0px 0px 5px 5px;
+    transition-duration: 0.5s;
+}
+nav a:hover{
+    background-color: var(--cor3);
+    color: white;
+}
+main{
+    min-width: 100px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    text-align: justify;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438) ;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+main h1{
+    font-family: font var(--font-padrao);
+    font-size: 1.6em;
+    font-weight: normal;
+}
+main p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+main h2{
+    font-family: font porsche;
+    font-size: 1.3em;
+    text-indent: 8px;
+    font-weight: normal;
+    margin: 20px;
+}
+ main img{
+    max-width: 600px;
+    display: block;
+    margin: auto;
+
+}
+footer{
+    background-color: var(--cor3);
+    text-align: center;
+    padding: 5px;
+}
+footer p{
+    color: white;
+}
